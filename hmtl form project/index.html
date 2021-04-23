@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.cc/neo.css" />
+    <title>Abdullah's Form</title>
+  </head>
+  <body>
+    <form class="form" action="https://formspree.io/f/xzbyzkev" method="POST">
+      <h1 class="heading">Contact form</h1>
+      <div class="form-group">
+        <label class="form-label" for="email">email</label>
+        <input
+          class="form-input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="name">name</label>
+        <input
+          class="form-input"
+          type="text"
+          id="name"
+          placeholder="name"
+          name="name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="contact">contact</label>
+        <input
+          class="form-input"
+          type="tel"
+          id="contact"
+          name="contact"
+          placeholder="contact"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="message">message</label>
+        <textarea
+          class="form-input"
+          name="message"
+          id="message"
+          placeholder="Type your message here"
+          required
+        ></textarea>
+      </div>
+
+      <button class="button" type="submit">Send</button>
+    </form>
+  </body>
+</html>
